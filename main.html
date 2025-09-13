@@ -6,15 +6,14 @@
 <title>CSS Grid 2x2</title>
 <style>
   /* Grid container */
-  .holder {
-    display: grid;
-    width: 200px;
-    height: 200px;
-    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-    grid-template-rows: repeat(2, 1fr);    /* 2 equal rows */
-    gap: 5px; /* Optional spacing between grid items */
-    border: 2px solid #000; /* Optional border for visualization */
-  }
+.holder {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  grid-template-columns: repeat(2, 100px); /* fixed 100px columns */
+  grid-template-rows: repeat(2, 100px);    /* fixed 100px rows */
+}
+
 
   /* Grid items */
   .item {
